@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/SISIPI-Landing-Page/static/css/main.187b7dbb.css",
-    "main.js": "/SISIPI-Landing-Page/static/js/main.7e4df7fd.js",
+    "main.css": "/SISIPI-Landing-Page/static/css/main.c5c42690.css",
+    "main.js": "/SISIPI-Landing-Page/static/js/main.c7716828.js",
     "static/js/453.8ab44547.chunk.js": "/SISIPI-Landing-Page/static/js/453.8ab44547.chunk.js",
+    "static/media/eligibility.png": "/SISIPI-Landing-Page/static/media/eligibility.5e65820ee8a38d590b51.png",
+    "static/media/sipibimi.png": "/SISIPI-Landing-Page/static/media/sipibimi.16419ecf580c77619177.png",
+    "static/media/whySI.png": "/SISIPI-Landing-Page/static/media/whySI.56b12a2e397e61dc3bd5.png",
+    "static/media/before-deploy.png": "/SISIPI-Landing-Page/static/media/before-deploy.6f697e250353bf5cf51e.png",
+    "static/media/after-deploy.png": "/SISIPI-Landing-Page/static/media/after-deploy.a508443567bffd06e246.png",
+    "static/media/beforeAfter.png": "/SISIPI-Landing-Page/static/media/beforeAfter.87b66ee2ca5d04d59c90.png",
+    "static/media/cuate.png": "/SISIPI-Landing-Page/static/media/cuate.d88fb60eebecdc34cc29.png",
+    "static/media/VmcRef1.png": "/SISIPI-Landing-Page/static/media/VmcRef1.03ca098855b7862dacb5.png",
+    "static/media/before-after-small.png": "/SISIPI-Landing-Page/static/media/before-after-small.694037078bb57dc1f13d.png",
+    "static/media/VmcRef2.png": "/SISIPI-Landing-Page/static/media/VmcRef2.0d64324bdf5e91dd8371.png",
+    "static/media/sec1-img2.png": "/SISIPI-Landing-Page/static/media/sec1-img2.4129237a04206f937e7b.png",
+    "static/media/VMC.png": "/SISIPI-Landing-Page/static/media/VMC.3c13e813606eae4fe362.png",
+    "static/media/sec1-img1.png": "/SISIPI-Landing-Page/static/media/sec1-img1.30a768f0412bfbbbe215.png",
+    "static/media/Frame 71.png": "/SISIPI-Landing-Page/static/media/Frame 71.49d718a7566b907faaba.png",
     "index.html": "/SISIPI-Landing-Page/index.html",
-    "main.187b7dbb.css.map": "/SISIPI-Landing-Page/static/css/main.187b7dbb.css.map",
-    "main.7e4df7fd.js.map": "/SISIPI-Landing-Page/static/js/main.7e4df7fd.js.map",
+    "main.c5c42690.css.map": "/SISIPI-Landing-Page/static/css/main.c5c42690.css.map",
+    "main.c7716828.js.map": "/SISIPI-Landing-Page/static/js/main.c7716828.js.map",
     "453.8ab44547.chunk.js.map": "/SISIPI-Landing-Page/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.187b7dbb.css",
-    "static/js/main.7e4df7fd.js"
+    "static/css/main.c5c42690.css",
+    "static/js/main.c7716828.js"
   ]
 }
