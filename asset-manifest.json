@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SISIPI-Landing-Page/static/css/main.0502d271.css",
-    "main.js": "/SISIPI-Landing-Page/static/js/main.fe867669.js",
-    "static/js/453.8ab44547.chunk.js": "/SISIPI-Landing-Page/static/js/453.8ab44547.chunk.js",
-    "index.html": "/SISIPI-Landing-Page/index.html",
-    "main.0502d271.css.map": "/SISIPI-Landing-Page/static/css/main.0502d271.css.map",
-    "main.fe867669.js.map": "/SISIPI-Landing-Page/static/js/main.fe867669.js.map",
-    "453.8ab44547.chunk.js.map": "/SISIPI-Landing-Page/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/static/css/main.187b7dbb.css",
+    "main.js": "/static/js/main.d3199f87.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "index.html": "/index.html",
+    "main.187b7dbb.css.map": "/static/css/main.187b7dbb.css.map",
+    "main.d3199f87.js.map": "/static/js/main.d3199f87.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0502d271.css",
-    "static/js/main.fe867669.js"
+    "static/css/main.187b7dbb.css",
+    "static/js/main.d3199f87.js"
   ]
 }
