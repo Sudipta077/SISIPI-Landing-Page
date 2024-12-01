@@ -171,11 +171,11 @@ function Home() {
                 <div className='h-[351px] sm:h-[451px]  w-full sm:w-[313px] mt-5 sm:mt-[69px] relative'>
 
                     <div className="carousel">
-                        <div className="carousel-item w-full">
+                        <div className="carousel-item w-[313px] border">
                             <img
                                 src={activeCarouselItem.image}
                                 alt=""
-                                className='object-contain object-center h-[281.43px] w-[480px]'
+                                className='object-contain object-center h-[281.43px] w-full sm:w-[480px]'
                             />
                         </div>
 
