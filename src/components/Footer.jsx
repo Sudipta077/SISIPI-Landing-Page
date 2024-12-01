@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { phone,email,whatsappp,Frame71 } from '../imports/import';
 function Footer(props) {
     return (
         <>
@@ -20,16 +20,16 @@ function Footer(props) {
                         </p>
                         <div className='mt-5'>
                             <div className='flex gap-[13px] items-center  mt-[12px]'>
-                                <img src="/images/phone.png" alt="" />
+                                <img src={phone} alt="" />
                                 <p className='text-[#FFFF] text-base'>+917075181481</p>
                             </div>
                             <div className='flex gap-[13px] items-center mt-[12px]'>
-                                <img src="/images/whatsappp.png" alt="" />
+                                <img src={whatsappp} alt="" />
                                 <p className='text-[#FFFF] text-base'>+917075181481</p>
                             </div>
                             <div className='flex gap-[13px] items-center mt-[12px]'>
-                                <img src="/images/email.png" alt="" />
-                                <p className='text-[#FFFF] text-base'>+917075181481</p>
+                                <img src={email} alt="" />
+                                <p className='text-[#FFFF] text-base'>contact@sisipi.com</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ function Footer(props) {
                 </div>
 
                 <div className='mt-[35px] sm:mt-[25px] w-[252px] sm:w-[284px]  sm:m-auto'>
-                    <img src="/images/Frame 71.png" alt="" />
+                    <img src={Frame71} alt="" />
                 </div>
 
             </div>

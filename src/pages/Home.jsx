@@ -5,16 +5,53 @@ import VmcCard from '../components/VmcCard';
 import VmcRefCard from '../components/VmcRefCard';
 import FeaturesCard from '../components/FeaturesCard';
 import Footer from '../components/Footer';
+import {sec1Img1,
+    eligibility,
+    beforeDeploy,
+    beforeAfterSmall,
+    afterDeploy,
+    VMC,
+    sec1Img2,
+    feature8,
+    feature7,
+    feature6,
+    feature5,
+    feature4,
+    feature3,
+    feature2,
+    feature1,
+    protection,
+    filter,
+    money,
+    verifiedBadge,
+    vmc,
+    vmc2,
+    vmc1,
+    cuate,
+    google,
+    forbes,
+    apple,
+    zoho,
+    au,
+    beforeAfter,
+    vmcRefLarge,
+    vmcRefSmall,
+    whySI,
+    whatsapp,
+    whatsappp,
+    phone,email,
+    logo,VmcRef1,VmcRef2,sipibimi} from '../imports/import';
+
 
 const carouselItems = [
     {
         id: 1,
-        image: '/images/sec1-img1.png',
+        image: sec1Img1,
         text: 'Amazon With VMC/BIMI'
     },
     {
         id: 2,
-        image: '/images/sec1-img2.png',
+        image: sec1Img2,
         text: 'Airtel With VMC/BIMI'
     }
 ];
@@ -22,36 +59,36 @@ const carouselItems = [
 const features = [
     {
 
-        image: '/images/feature8.png',
+        image: feature1,
         text: 'Brand Protection'
     },
     {
 
-        image: '/images/feature7.png',
+        image: feature2,
         text: 'Trusted Recognition'
     }, {
 
-        image: '/images/feature6.png',
+        image: feature3,
         text: 'Boost E-Mail Engagement'
     }, {
 
-        image: '/images/feature5.png',
+        image: feature4,
         text: 'Brand Value'
     }, {
 
-        image: '/images/feature4.png',
+        image: feature5,
         text: 'Unique Sales Strategy'
     }, {
 
-        image: '/images/feature3.png',
+        image:feature6,
         text: 'Value Addition to the Client'
     }, {
 
-        image: '/images/feature2.png',
+        image: feature7,
         text: 'Authentic Unified Experience'
     }, {
 
-        image: '/images/feature1.png',
+        image: feature8,
         text: 'Best Lead To Sale Conversions'
     },
 
@@ -60,17 +97,17 @@ const features = [
 const VmcData = [
     {
         id: 1,
-        image: '/images/protection.png',
+        image:protection,
         text: 'Increase Brand Protection'
     },
     {
         id: 2,
-        image: '/images/filter.png',
+        image: filter,
         text: 'Beat the Leads Journey with Unique Branding'
     },
     {
         id: 2,
-        image: '/images/money.png',
+        image: money,
         text: 'Increase Sales with Verified Blue Tick Mark'
     }
 ];
@@ -78,34 +115,34 @@ const VmcData = [
 const Vmcref =
 {
 
-    large: '/images/VmcRef1.png',
-    small: '/images/VmcRef2.png'
+    large: VmcRef1,
+    small: VmcRef2
 }
 
 const verified = [
     {
 
-        image: '/images/google.png',
+        image: google,
 
     },
     {
 
-        image: '/images/forbes.png',
+        image: forbes,
 
     },
     {
 
-        image: '/images/apple.png',
+        image: apple,
 
     },
     {
 
-        image: '/images/zoho.png',
+        image: zoho,
 
     },
     {
 
-        image: '/images/au.png',
+        image: au,
 
     },
 
@@ -153,7 +190,7 @@ function Home() {
                         <h1 className='text-[#0083FF] text-xl sm:text-[36px] font-semibold leading-snug'>
                             Verified Blue Tick Mark Badge
                         </h1>
-                        <img src="/images/verified.png" className='h-[30px] w-[30px]' alt="Verified Badge" />
+                        <img src={verifiedBadge} className='h-[30px] w-[30px]' alt="Verified Badge" />
                     </div>
 
                     <p className='text-[#333333] font-semibold text-sm sm:text-[28px] mt-3 leading-normal sm:leading-relaxed'>
@@ -213,7 +250,7 @@ function Home() {
 
                 {
                     isLargeScreen ?
-                        <img src="/images/VMC.png" alt="" className='mt-[33.2px] mb-[57.12px]' />
+                        <img src={VMC} alt="" className='mt-[33.2px] mb-[57.12px]' />
                         :
 
                         <div className='text-center'>
@@ -231,7 +268,7 @@ function Home() {
             <div className='px-5 sm:px-[144px] mt-5 sm:mt-20 mb-[40.81px]'>
                 <div className='flex flex-col sm:flex-row items-center'>
                     <div>
-                        <img src="/images/cuate.png" alt="" className='w-[260px] h-[182px] sm:w-[574px]  sm:h-[401.01px]' />
+                        <img src={cuate} alt="" className='w-[260px] h-[182px] sm:w-[574px]  sm:h-[401.01px]' />
                     </div>
 
                     <div className='w-[350px] sm:w-[542px] ml-0 sm:ml-[37.5px] text-left sm:text-center mt-0 sm:mt-[12px]'>
@@ -273,7 +310,7 @@ function Home() {
                     </div>
 
                     <div className='ml-0 mt-[20.5px] sm:mt-0 sm:ml-[54px] h-[218px] sm:h-[404px] w-[300px] sm:w-[556px]'>
-                        <img src="/images/beforeAfter.png" alt="" />
+                        <img src={beforeAfter} alt="" />
                     </div>
                 </div>
 
@@ -312,7 +349,7 @@ function Home() {
                 </h1>
 
                 <div className={`${isLargeScreen ? 'block' : 'hidden'} w-[135px] h-[140.78px] sm:w-[374px] sm:h-[390px] grid place-content-center`}>
-                    <img src="/images/whySI.png" alt="" />
+                    <img src={whySI} alt="" />
                 </div>
 
                 <div className='m-auto w-full   sm:w-[702px] h-[160px] sm:h-[178px] ml-0 sm:ml-[76px] '>
@@ -322,7 +359,7 @@ function Home() {
 
                     <div className='flex flex-row w-[350px] sm:w-[702px] items-center mt-[12px] px-5 am:px-0'>
                         <div className={`${isLargeScreen ? 'hidden' : 'block'} flex-shrink-0 w-[135px] h-[140.78px] sm:w-[374px] sm:h-[390px]`}>
-                            <img src="/images/whySI.png" alt="" />
+                            <img src={whySI} alt="" />
                         </div>
 
                         <div className='ml-[14px] sm:ml-[-14px]'>
@@ -351,7 +388,7 @@ function Home() {
             {/* section 7 */}
 
             <div className='h-[160px] sm:h-[530px]'>
-                <img src="/images/sipibimi.png" alt="" />
+                <img src={sipibimi} alt="" />
             </div>
 
             {/* section 8 */}
@@ -363,19 +400,19 @@ function Home() {
                     <div className='mt-[40px]'>
                         <h2 className='text-[#0083FF] text-sm sm:text-lg font-bold '>Before VMC/BIMI</h2>
                         <div className={`${isLargeScreen ? 'block' : 'hidden'} mt-[12px]`} >
-                            <img src="/images/before-deploy.png" alt="" />
+                            <img src={beforeDeploy} alt="" />
                         </div>
                     </div>
 
                     <div className='mt-[40px]'>
                         <h2 className='text-[#0083FF] text-sm sm:text-lg font-bold'>After VMC/BIMI</h2>
                         <div className={`${isLargeScreen ? 'block' : 'hidden'} mt-[12px]`} >
-                            <img src="/images/after-deploy.png" alt="" />
+                            <img src={afterDeploy}alt="" />
                         </div>
                     </div>
                 </div>
                 <div className={`${isLargeScreen ? 'hidden' : ' block'} mt-[10px]`}>
-                    <img src="/images/before-after-small.png" alt="" />
+                    <img src={beforeAfterSmall} alt="" />
                 </div>
 
             </div>
@@ -389,8 +426,8 @@ function Home() {
                     Eligibility & Process to get Verified Mark Certificate (Business E-Mail Blue Tick)
                 </h1>
 
-                <div className='px-5 w-[380px] sm:w-[1236px] h-[313px] sm:h-[611px] m-auto mt-5 sm:mt-[32px]'>
-                    <img src="/images/eligibility.png" alt="" className='w-full sm:w-fit h-full m-auto' />
+                <div className='px-5 w-full sm:w-[1236px] h-[313px] sm:h-[611px] m-auto mt-5 sm:mt-[32px]'>
+                    <img src={eligibility} alt="" className='w-full sm:w-fit h-full m-auto' />
                 </div>
 
                 <p className=' sm:font-bold text-sm sm:text-lg text-[#FFFFFF] text-center m-auto w-[90%] sm:w-[781px]'>
