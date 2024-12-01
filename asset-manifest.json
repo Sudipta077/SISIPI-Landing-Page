@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SISIPI-Landing-Page/static/css/main.0502d271.css",
+    "main.js": "/SISIPI-Landing-Page/static/js/main.fe867669.js",
+    "static/js/453.8ab44547.chunk.js": "/SISIPI-Landing-Page/static/js/453.8ab44547.chunk.js",
+    "index.html": "/SISIPI-Landing-Page/index.html",
+    "main.0502d271.css.map": "/SISIPI-Landing-Page/static/css/main.0502d271.css.map",
+    "main.fe867669.js.map": "/SISIPI-Landing-Page/static/js/main.fe867669.js.map",
+    "453.8ab44547.chunk.js.map": "/SISIPI-Landing-Page/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0502d271.css",
+    "static/js/main.fe867669.js"
+  ]
+}
