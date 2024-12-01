@@ -254,8 +254,8 @@ function Home() {
                         :
 
                         <div className='text-center'>
-                            <img src="/images/VMC2.png" alt="" className='mt-[33.2px] m-auto' />
-                            <img src="/images/VMC1.png" alt="" className='mt-[33.2px] m-auto' />
+                            <img src={vmc1} alt="" className='mt-[33.2px] m-auto' />
+                            <img src={vmc2} alt="" className='mt-[33.2px] m-auto' />
 
                         </div>
                 }
