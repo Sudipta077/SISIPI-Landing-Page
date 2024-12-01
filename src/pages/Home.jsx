@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Button from '../components/Button';
 import VmcCard from '../components/VmcCard';
 import VmcRefCard from '../components/VmcRefCard';
+import FeaturesCard from '../components/FeaturesCard';
+import Footer from '../components/Footer';
 
 const carouselItems = [
     {
@@ -15,6 +17,44 @@ const carouselItems = [
         image: '/images/sec1-img2.png',
         text: 'Airtel With VMC/BIMI'
     }
+];
+
+const features = [
+    {
+
+        image: '/images/feature8.png',
+        text: 'Brand Protection'
+    },
+    {
+
+        image: '/images/feature7.png',
+        text: 'Trusted Recognition'
+    }, {
+
+        image: '/images/feature6.png',
+        text: 'Boost E-Mail Engagement'
+    }, {
+
+        image: '/images/feature5.png',
+        text: 'Brand Value'
+    }, {
+
+        image: '/images/feature4.png',
+        text: 'Unique Sales Strategy'
+    }, {
+
+        image: '/images/feature3.png',
+        text: 'Value Addition to the Client'
+    }, {
+
+        image: '/images/feature2.png',
+        text: 'Authentic Unified Experience'
+    }, {
+
+        image: '/images/feature1.png',
+        text: 'Best Lead To Sale Conversions'
+    },
+
 ];
 
 const VmcData = [
@@ -35,13 +75,43 @@ const VmcData = [
     }
 ];
 
-const Vmcref = 
+const Vmcref =
+{
+
+    large: '/images/VmcRef1.png',
+    small: '/images/VmcRef2.png'
+}
+
+const verified = [
     {
 
-        large: '/images/VmcRef1.png',
-        small: '/images/VmcRef2.png'
-    }
-  
+        image: '/images/google.png',
+
+    },
+    {
+
+        image: '/images/forbes.png',
+
+    },
+    {
+
+        image: '/images/apple.png',
+
+    },
+    {
+
+        image: '/images/zoho.png',
+
+    },
+    {
+
+        image: '/images/au.png',
+
+    },
+
+
+];
+
 
 
 function Home() {
@@ -188,10 +258,10 @@ function Home() {
 
             {/* section 4 */}
 
-            <div className='bg-[#E5F2FF] p-5 sm:px-[142px]   w-full h-fit sm:h-[585px]'>
+            <div className='bg-[#E5F2FF] p-5 sm:px-[142px]  w-full h-fit sm:pb-[60px]'>
 
-                <div className='bg-[#08245D] w-[350px] sm:w-[679px] h-[60px] sm:h-[51px] m-auto rounded-[12px] px-[20px] py-[10px]'>
-                    <p className='text-[#FFFFFF] font-bold text-[14px] sm:text-[18px] text-center'>Kill Impersonation with Verified Badge Right Next to Your Business Mail ID</p>
+                <div className='mt-0 sm:mt-[40px] bg-[#08245D] w-full p-2 sm:w-[679px] h-[60px] sm:h-[51px] m-auto rounded-[12px] px-[45px] sm:px-[20px] py-[10px] sm:py-[10px] grid place-content-center'>
+                    <p className='text-[#FFFFFF] font-bold text-[14px] w-[260px] sm:w-full sm:text-[18px] text-center'>Kill Impersonation with Verified Badge Right Next to Your Business Mail ID</p>
                 </div>
 
                 {/* text */}
@@ -202,7 +272,7 @@ function Home() {
                         <Button text={"Schedule Product Demo"} />
                     </div>
 
-                    <div className='ml-0 mt-[20.5px] sm:mt-0 sm:ml-[54px]'>
+                    <div className='ml-0 mt-[20.5px] sm:mt-0 sm:ml-[54px] h-[218px] sm:h-[404px] w-[300px] sm:w-[556px]'>
                         <img src="/images/beforeAfter.png" alt="" />
                     </div>
                 </div>
@@ -213,26 +283,150 @@ function Home() {
 
             <div className='p-5 sm:px-[144px] m-auto'>
 
-                <div className='w-[350px] sm:w-[835px] m-auto'>
+                <div className='w-full sm:w-[835px] m-auto'>
                     <h1 className='text-[#0083FF] tex-[20px] sm:text-[46px] font-bold text-center'>Reference of Brands Before and After VMC/BIMI Deployment</h1>
                     <p className='text-[14px] sm:text-[18px] font-[600] text-center mt-[14px]'>BIMI/VMC E-Mail Specification once Implemented will Propagate in both Web and Mobile Views.</p>
                 </div>
 
                 <div className='flex flex-col w-[350px] sm:w-full sm:flex-row items-center mt-[22px]'>
                     {
-                        isLargeScreen ? 
-                        
-                        <VmcRefCard img={Vmcref.large} />
-                        :
-                        <VmcRefCard img={Vmcref.small} />
-                           
-                                                          
-                      
+                        isLargeScreen ?
+
+                            <VmcRefCard img={Vmcref.large} />
+                            :
+                            <VmcRefCard img={Vmcref.small} />
+
+
+
                     }
                 </div>
 
             </div>
 
+            {/* section 6 */}
+
+            <div className='w-full border  bg-gradient-to-l from-[#0083FF] to-[#08245D] h-fit sm:h-[431px] flex flex-col sm:flex-row items-center px-[10px] pt-5 pb-[70px] sm:pb-0 sm:px-[144px]  sm:py-[21px]'>
+
+                <h1 className={`${isLargeScreen ? 'hidden' : 'block'} text-xl text-center sm:text-[46px] font-semibold text-[#FFFFFF] leading-normal`}>
+                    Why SISIPI® for VMC/BIMI ?
+                </h1>
+
+                <div className={`${isLargeScreen ? 'block' : 'hidden'} w-[135px] h-[140.78px] sm:w-[374px] sm:h-[390px] grid place-content-center`}>
+                    <img src="/images/whySI.png" alt="" />
+                </div>
+
+                <div className='m-auto w-full   sm:w-[702px] h-[160px] sm:h-[178px] ml-0 sm:ml-[76px] '>
+                    <h1 className={`${isLargeScreen ? 'block' : 'hidden'} text-xl sm:text-[46px] font-semibold text-[#FFFFFF] leading-normal`}>
+                        Why SISIPI® for VMC/BIMI ?
+                    </h1>
+
+                    <div className='flex flex-row w-[350px] sm:w-[702px] items-center mt-[12px] px-5 am:px-0'>
+                        <div className={`${isLargeScreen ? 'hidden' : 'block'} flex-shrink-0 w-[135px] h-[140.78px] sm:w-[374px] sm:h-[390px]`}>
+                            <img src="/images/whySI.png" alt="" />
+                        </div>
+
+                        <div className='ml-[14px] sm:ml-[-14px]'>
+                            <p className='w-[201px] sm:w-[702px] h-[160px] font-normal sm:font-medium text-sm sm:text-lg text-[#FFFFFF]'>
+                                SISIPI Inc. (California Incorporated) and
+                                SISIPI® Technologies Private Limited (INDIA Incorporation) , is the official partner Connector E-Mail Specification Provider in Association with OEM and BIMI. And has successfully deployed VMC/BIMI for  4500+ Brands World Wide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            {/* Feature cards */}
+            <div className='p-5 sm:px-[144px] m-auto'>
+
+                <div className='grid-cols-2 grid gap-6  p-4'>
+                    {
+                        features.map((item) => (
+                            <FeaturesCard data={item} />
+
+                        ))
+                    }
+                </div>
+            </div>
+
+            {/* section 7 */}
+
+            <div className='h-[160px] sm:h-[530px]'>
+                <img src="/images/sipibimi.png" alt="" />
+            </div>
+
+            {/* section 8 */}
+
+            <div className='h-fit px-5 sm:px-[144px]  mt-[80px]'>
+                <h1 className='text-[#0083FF] text-xl sm:text-[46px] font-bold m-auto text-center'>Before and After VMC/BIMI Deployment</h1>
+
+                <div className='flex sm:flex-col m-auto justify-center gap-[74px]'>
+                    <div className='mt-[40px]'>
+                        <h2 className='text-[#0083FF] text-sm sm:text-lg font-bold '>Before VMC/BIMI</h2>
+                        <div className={`${isLargeScreen ? 'block' : 'hidden'} mt-[12px]`} >
+                            <img src="/images/before-deploy.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div className='mt-[40px]'>
+                        <h2 className='text-[#0083FF] text-sm sm:text-lg font-bold'>After VMC/BIMI</h2>
+                        <div className={`${isLargeScreen ? 'block' : 'hidden'} mt-[12px]`} >
+                            <img src="/images/after-deploy.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div className={`${isLargeScreen ? 'hidden' : ' block'} mt-[10px]`}>
+                    <img src="/images/before-after-small.png" alt="" />
+                </div>
+
+            </div>
+
+
+
+            {/* section 9 */}
+
+            <div className='bg-[#08245D] w-full h-fit px-5 pb-5 sm:pb-0 sm:h-[969px] mt-[80px]'>
+                <h1 className='leading-normal text-xl sm:text-[46px] font-semibold text-center m-auto text-[#FFFFFF] w-[350px]  sm:w-[871px] pt-5 sm:pt-[62px]'>
+                    Eligibility & Process to get Verified Mark Certificate (Business E-Mail Blue Tick)
+                </h1>
+
+                <div className='px-5 w-[380px] sm:w-[1236px] h-[313px] sm:h-[611px] m-auto mt-5 sm:mt-[32px]'>
+                    <img src="/images/eligibility.png" alt="" className='w-full sm:w-fit h-full m-auto' />
+                </div>
+
+                <p className=' sm:font-bold text-sm sm:text-lg text-[#FFFFFF] text-center m-auto w-[90%] sm:w-[781px]'>
+                    If your Brand Name or Brand Logo is not yet Trademarked, we will help you to get one with
+                    our Top-Notch Dedicated Trademark Attorney Team.
+                </p>
+
+            </div>
+
+            {/* section 10 */}
+            <div className='m-auto'>
+                <h1 className='text-[#0083FF] text-xl w-[240px] sm:w-full sm:text-[46px] font-bold m-auto text-center mt-5 sm:mt-[80px]'>
+                    Articles on Verified Mark Certificate By BIMI
+                </h1>
+
+                <div className='flex mt-[11.95px] sm:mt-[40.7px] gap-[30.46px] w-full overflow-x-auto lg:overflow-x-visible'>
+                <div className='flex gap-[12px] sm:gap-[64px] justify-center'>
+                        {verified.map((item, index) => (
+                            <div
+                                key={index}
+                                className='w-[134px] sm:w-[200px] grid place-content-center h-[70px] sm:h-[100px] rounded-lg p-4 shadow'
+                                style={{ boxShadow: '0px 4px 70px 0px #0000000F' }}
+                            >
+                                <img src={item.image} alt="" />
+                            </div>
+                        ))}
+                    </div>
+                       
+                    </div>
+                  
+                </div>
+        
+
+
+            {/* section 11 */}
+            <Footer />
         </>
     );
 }
